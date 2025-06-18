@@ -1,6 +1,11 @@
 # autotrait2
 
-Same as the [`autotrait`][https://github.com/bearcove/autotrait] crate.
+[![actions status][actions-badge]][actions-url]
+[![crate version][crates-version-badge]][crates-url]
+[![dependencies status][deps-badge]][deps-url]
+![licenses][licenses-badge]
+
+Same as the [`autotrait`](https://github.com/bearcove/autotrait) crate.
 
 Use this crate if the first one didn't work.
 
@@ -19,3 +24,11 @@ impl MyTrait for Stuff {
     }
 }
 ```
+
+[actions-badge]: https://github.com/yozhgoor/cargo-temp/actions/workflows/rust.yml/badge.svg
+[actions-url]: https://github.com/yozhgoor/cargo-temp/actions
+[crates-version-badge]: https://img.shields.io/crates/v/cargo-temp
+[crates-url]: https://crates.io/crates/cargo-temp
+[deps-badge]: https://deps.rs/repo/github/yozhgoor/cargo-temp/status.svg
+[deps-url]: https://deps.rs/crate/cargo-temp
+[licenses-badge]: https://img.shields.io/crates/l/cargo-temp
