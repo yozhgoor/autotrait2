@@ -1,0 +1,21 @@
+[package]
+name = "autotrait2"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "generate trait definitions from impl blocks"
+repository = "https://github.com/yozhgoor/autotrait2"
+homepage = "https://github.com/yozhgoor/autotrait2"
+documentation = "https://docs.rs/autotrait2"
+readme = "README.md"
+keywords = ["proc-macro", "trait"]
+categories = ["rust-patterns"]
+include = ["src/**/*.rs", "README.md", "LICENSE.Apache-2.0", "LICENSE.MIT"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.36"
+quote = "1.0.15"
+syn = { version = "2.0.96", features = ["full"] }
