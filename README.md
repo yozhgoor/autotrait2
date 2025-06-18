@@ -25,10 +25,10 @@ impl MyTrait for Stuff {
 }
 ```
 
-[actions-badge]: https://github.com/yozhgoor/cargo-temp/actions/workflows/rust.yml/badge.svg
-[actions-url]: https://github.com/yozhgoor/cargo-temp/actions
-[crates-version-badge]: https://img.shields.io/crates/v/cargo-temp
-[crates-url]: https://crates.io/crates/cargo-temp
-[deps-badge]: https://deps.rs/repo/github/yozhgoor/cargo-temp/status.svg
-[deps-url]: https://deps.rs/crate/cargo-temp
-[licenses-badge]: https://img.shields.io/crates/l/cargo-temp
+[actions-badge]: https://github.com/yozhgoor/autotrait2/actions/workflows/rust.yml/badge.svg
+[actions-url]: https://github.com/yozhgoor/autotrait2/actions
+[crates-version-badge]: https://img.shields.io/crates/v/autotrait2
+[crates-url]: https://crates.io/crates/autotrait2
+[deps-badge]: https://deps.rs/repo/github/yozhgoor/autotrait2/status.svg
+[deps-url]: https://deps.rs/crate/autotrait2
+[licenses-badge]: https://img.shields.io/crates/l/autotrait2
